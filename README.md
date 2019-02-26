@@ -23,5 +23,5 @@
 <img src="https://i.loli.net/2019/02/26/5c7509009f73c.png" />
 <img src="https://i.loli.net/2019/02/26/5c75097dbc7f4.png" />
 
-##说明：
+## 说明：
 项目Fork自https://github.com/getweapp/weapp-diancan  由于2年未维护了，所以我就自己改了下吧。希望能帮助到一些朋友
