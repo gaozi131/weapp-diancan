@@ -60,13 +60,13 @@
     color: #ff2d2d;
     border-radius: 10px;
     text-align: center;
-    line-height: 20px;
+    line-height: 15px;
 }
 .fooditem-num{
     font-size: 14px;
     display: inline-block;
     color: #ff2d2d;
-    width: 28px;
+    width: 20px;
     text-align: center;
     margin-top: -3px;
 }
@@ -75,7 +75,8 @@
     color: #ff2d2d;
     width: 40px;
     float: right;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
+    margin-right: 15px;
 }
 
 /* 提交订单 */

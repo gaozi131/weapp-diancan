@@ -37,15 +37,18 @@ Page({
     //全局数据中获得食品列表
     var appInstance = getApp();
     var t_foodList = appInstance.globalData.foodList;
-
     var t_arr;
+    var tempFoodsList=[];
     for(var i=0; i<t_foodList.length; i++){
       if(i%2 == 0){
         t_arr = [];
-        this.data.foodList.push(t_arr); //整理成二维数据，方便显示
+        tempFoodsList.push(t_arr); //整理成二维数据，方便显示
       }
       t_arr.push(t_foodList[i]);
     }
+    this.setData({
+      foodList: tempFoodsList//整理成二维数据，方便显示
+    });    
   },
 
   //关闭食品详情弹窗
